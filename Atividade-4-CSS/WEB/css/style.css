@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-index {
+  height: 100vh;
+  background-image: url('../img/img_undo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ========== PAGINA INDEX =========== */
+
+/* ========== HEADER =========== */
+
+header  {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #873093;
+  align-items: center;
+}
+
+
+header div a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 20px 30px;
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #71297a;
+  transition: 0.5s;
+}
+
+/* ========== HEADER =========== */
+
+/* ========== MAIN =========== */
+
+.main-index {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 184px);
+}
+
+.container-texto {
+  color: white;
+}
+
+.container-texto h1 {
+  font-size: 40px;
+}
+
+.container-texto p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.jogos-lista ul {
+  list-style: none;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.jogos-lista ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+.jogos-lista ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ========== MAIN =========== */
+
+/* ========== FOOTER =========== */
+
+footer img {
+  width: 30px;
+}
+
+.container-logo-wpp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px;
+  background-color: #71297a;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  font-weight: bold;
+  color: white;
+}
+
+/* ========== FOOTER =========== */
+
+
+/* ========== RESTO DAS PÁGINAS =========== */
+
+.body-01 {
+  background-image: url('.');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(112, 41, 122);
+}
+
+.main-all {
+  /* height: calc(100vh - 184px); */
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container-main {
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-all {
+  max-width: 700px;
+  font-size: 23px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.img-all {
+  max-width: 800px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.img-all:hover {
+  scale: 1.04;
+}
+
+.h1-all {
+  font-size: 60px;
+}
+
+.h2-all {
+  font-size: 40px;
+}
+
+.p-all a {
+  color: rgb(179, 179, 179);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.p-all a:hover {
+  text-decoration: none;
+  color: rgb(129, 129, 129);
+}
+
+.h1-all, .p-all, .h2-all {
+  padding: 30px 0px;
+}
+
+.container-form {
+  padding: 10px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabela-all {
+  font-size: 20px;
+}
+
+.tabela-all td a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(179, 179, 179);
+}
+
+.tabela-all td a:hover {
+  text-decoration: underline;
+  color: rgb(129, 129, 129);
+}
+
+
+.container-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+}
+
+.container-btn button {
+  padding: 15px 35px;
+  background-color: #411846;
+  border: none;
+  border-radius: 4px;
+  font-size: 17px;
+  color: white;
+}
+
+.container-btn button:hover {
+  background-color: #2e1131;
+  cursor: pointer;
+}
+
+.container-form label {
+  padding: 10px 0px;
+}
