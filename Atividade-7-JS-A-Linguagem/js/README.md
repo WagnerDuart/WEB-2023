@@ -1,5 +1,7 @@
 # Jogo do Show do Milhão
 
+## Wagner Santos Duarte
+
 ## Sumário
 
 Este é um jogo de perguntas e respostas inspirado no "Show do Milhão". O jogador responde a uma série de perguntas, acumulando pontos com respostas corretas. O jogo foi desenvolvido em Node.js, utilizando a biblioteca readline para a entrada de dados.
