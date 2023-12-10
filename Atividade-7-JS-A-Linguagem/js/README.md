@@ -41,7 +41,7 @@ Para executar o jogo, é necessário ter o Node.js instalado em sua máquina. Si
 
 ## Créditos
 
-- Desenvolvido por [Seu Nome]
+- Desenvolvido por [Wagner Santos Duarte]
 
 ## Licença do Projeto
 
